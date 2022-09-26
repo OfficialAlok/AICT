@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AICT - All India Institue Of Computer Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="Images/AICT Logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- ----Course---- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>ADCA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatum eveniet dolorem, impedit
+                    autem consectetur voluptatem aliquid reprehenderit odit sed ratione.</p>
+            </div>
+            <div class="course-col">
+                <h3>Hardware & Networking</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatum eveniet dolorem, impedit
+                    autem consectetur voluptatem aliquid reprehenderit odit sed ratione.</p>
+            </div>
+            <div class="course-col">
+                <h3>DFA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatum eveniet dolorem, impedit
+                    autem consectetur voluptatem aliquid reprehenderit odit sed ratione.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----Facilities---- -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/lab.jpg" alt="">
+                <h3>Lab</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit vel at magnam omnis, dicta
+                    mollitia, excepturi velit, voluptate esse cum optio?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/theory.jpg" alt="">
+                <h3>Class Room</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit vel at magnam omnis, dicta
+                    mollitia, excepturi velit, voluptate esse cum optio?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/practical.jpg" alt="">
+                <h3>Practical </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit vel at magnam omnis, dicta
+                    mollitia, excepturi velit, voluptate esse cum optio?</p>
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- ----Footer--- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p class="f-p">AICT is a premier IT Consulting & Training Company offering high quality Consultancy Services, end to end
+            solutions and cost-effective professional training in the field of Computer hardware & Networking. <br>
+            It offers full fledged education and training programs & has worked to make IT easier for every kind of
+            students.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="far fa-heart"></i> by <a href="https://www.instagram.com/official_aloka/" class="alok"
+                target="blank">Alok</a> </p>
+        <p class="copyright">
+            Copyright &copy; 2021 AICT | All Rights Reserved.
+        </p>
+    </section>
+
+    <!-- ------JavaScript For Toggle Menu----- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
